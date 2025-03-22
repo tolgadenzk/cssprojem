@@ -15,7 +15,7 @@ Kullanıcılar MMA hakkındaki temel bilgileri öğrenebilir, dövüş disiplinl
  Yayında *
 
 Projeyi buradan canlı olarak inceleyebilirsiniz:  
-** [https://cssprojem.netlify.app](https://cssprojem.netlify.app) --
+** [https://cssprojem.netlify.app](https://mmablog.netlify.app/) --
 
  Kullanılan Teknolojiler
 
