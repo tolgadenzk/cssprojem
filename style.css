@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  
+}
+#menu a {
+    text-decoration: none;     
+    color: #00d8ff;        
+    margin-left: 1.5rem;       
+    font-weight: 600;          
+    transition: color 0.3s ease;
+  }
+  
+#menu a:hover {
+    color: #fff;           
+  }
+/* .container{
+    display: grid;
+    grid-template-columns: 200px 250px 200px 250px;
+
+    background-color: #00d8ff;
+    padding: 20px;
+}
+.item{
+    padding: 20px;
+    margin: 20px;
+
+}
+.kutu_resim{
+    width: 150px;
+} */
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(158, 158, 158, 0.36); 
+    padding: 20px;
+  }
+  
+  .item {
+    width: 200px;              
+    background-color: #1b1b1b;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .item img {
+    width: 100%;               
+    height: auto;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+h2{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  
+  }
+  h2{
+    font-family: "Quicksand", sans-serif;
+    color: #00d8ff ;
+  }
+  .info-section{
+    padding: 50px;
+    background-color: #111;
+  }
+  .info-grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+
+  }
+.info-box h3{
+    color: #00bcd4;
+    font-family: "Gruppo", sans-serif;
+}
+.info-box button {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #00bcd4;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.info-box button:hover {
+    background-color: #009db1;
+  }
+p{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.history-section{
+    background-image: url(/images/octagon.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 20px;
+    color: #fff;
+    text-align: center;
+}
+.history-content{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.history-content h2{
+    font-family: 'Gruppo', sans-serif;
+    font-size: 36px;
+}
+.history-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.mma-info {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .mma-info-content {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .mma-info-content h2 {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 36px;
+    color: #00cfff;
+    margin-bottom: 20px;
+  }
+  
+  .mma-info-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #ddd;
+  }
+  .site-footer {
+    background-color: #1c1c1c;
+    color: #ccc;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Gruppo', sans-serif;
+  }
+  
+  .footer-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: #00cfff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #fff;
+  }
+    
+
+
+  
